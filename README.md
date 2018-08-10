@@ -27,7 +27,7 @@ These files may be used under the terms of the MIT License, wich a [copy](LICENS
 ```
 include=/etc/rpimonitor/template/dht.conf
 ```
-- Copy [dht.jpg](dht.png) to `/usr/share/rpimonitor/web/img`
+- Copy [dht.png](dht.png) to `/usr/share/rpimonitor/web/img`
 - Copy [__dht.conf](__dht.conf) to `/etc/supervisor/conf.d/dht.conf`
 - Modify `/etc/supervisor/conf.d/dht.conf` with your sensor model (11, 22 or 2302) and RPi pin
 - Run `sudo groupadd supervisor;sudo usermod -a -G supervisor pi`
